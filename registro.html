@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Atendimento</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="card">
+            <h1 id="saudacao">
+                Olá, fulano
+            </h1>
+
+            <div class="form">
+                <label for="atendimento">
+                    Forma de Atendimento
+                </label>
+
+                <select id="atendimento">
+                    <option value="presencial">Presencial</option>
+                    <option value="whatsapp">Whatsapp</option>
+                    <option value="ligacao">Ligação Telefônica</option>
+                    <option value="email">E-mail</option>
+                    <option value="redes_sociais">Redes Sociais</option>
+                    <option value="teams">Teams</option>
+                </select>
+            </div> 
+
+            <div class="form">
+                <label for="perfil">Perfil do Atendido</label>
+
+                <select id="perfil" required>
+                    <option value="empregador">Empregador</option>
+                    <option value="trabalhador">Trabalhador</option>
+                    <option value="setor_fgtas">Setor FGTAS</option>
+                </select>
+            </div>
+
+            <div id="empregador" class="textfield">
+                <label for="nome_empregador">Nome</label>
+                <input type="text" id="nome_empregador" placeholder="Escreva o nome do empregador">
+            </div>
+
+            <div id="empregador" class="textfield">
+                <label for="cnpj">CNPJ</label>
+                <input type="text" id="cnpj" placeholder="Escreva o CNPJ do empregador">
+            </div>
+
+            <div id="empregador" class="textfield">
+                <label for="telefone_empregador">Telefone</label>
+                <input type="text" id="telefone_empregador" placeholder="Escreva o telefone do empregador">
+            </div>
+
+            <div id="trabalhador" class="textfield">
+                <label for="nome_trabalhador">Nome</label>
+                <input type="text" id="nome_trabalhador" placeholder="Escreva o nome do trabalhador">
+            </div>
+
+            <div id="trabalhador" class="textfield">
+                <label for="cpf">CPF</label>
+                <input type="text" id="cpf" placeholder="Escreva o CPF do trabalhador">
+            </div>
+
+            <div id="trabalhador" class="textfield">
+                <label for="telefone_trabalhador">Telefone</label>
+                <input type="text" id="telefone_trabalhador" placeholder="Escreva o telefone do trabalhador">
+            </div>
+
+            <div id="setor_fgtas" class="textfield">
+                <label for="nome_setor">Setor</label>
+                <input type="text" id="nome_setor" placeholder="Escreva o nome do setor">
+            </div>
+
+            <div class="form">
+                <label for="tipo_atendimento">Tipo de Atendimento</label>
+
+                <select id="tipo_atendimento" required>
+                    <option value="consulta">Consulta</option>
+                    <option value="suporte">Suporte</option>
+                    <option value="orientacao">Orientação</option>
+                </select>
+            </div>
+
+            <button>
+                Avançar
+            </button>
+        </div>
+    </div>
+
+    <script src="js/registro.js"></script>
+</body>
+</html>

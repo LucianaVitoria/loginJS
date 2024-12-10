@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body { 
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    background: #201b2c;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 30px;
+    background: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.card > h1 {
+    color: #00ff88;
+    font-weight: 800;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.card > p {
+    color: white;
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    padding: 16px 0px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 4px;
+    color: #2b134b;
+    background: #00ff88;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8050;
+}
+
+.textfield {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textfield > input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label {
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+
+.textfield > input::placeholder {
+    color: #f0ffff94;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.form > label {
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+
+.form > select {
+    width: 100%;
+    font-size: 12pt;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    color: #2b134b;
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 5px 0px;
+    background: #514869;
+    padding: 10px;
+    box-shadow: 0px 10px 40px #00000056;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+.info > label {
+    color: #2f2841;
+    margin-bottom: 5px;
+}
+
+.info > p {
+    color: #f0ffffde;
+    font-size: 12pt;
+    margin: 0;
+}
+
+#smaller_margin-top_button {
+    margin-top: 10px;
+}
+
+#edit_button {
+    background-color: #514869;
+    box-shadow: 0px 10px 40px #00000056;
+    color: #2f2841;
+}
